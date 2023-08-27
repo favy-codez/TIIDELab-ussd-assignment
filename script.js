@@ -1,6 +1,7 @@
 function ussd (){
     let user = prompt(`please enter your name`).toUpperCase();
     let code;
+    var bal = 1000;
     while (true) {
          code  = prompt(`Welcome, ${user} ! Please enter First Bank transfer code (*894#) `)
     if (code === "*894#") {
