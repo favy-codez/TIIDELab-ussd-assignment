@@ -1,6 +1,10 @@
-let user = prompt(`please enter your name`).toUpperCase();
-let code  = prompt(`Welcome, ${user} ! Please enter First Bank transfer code (*894#) `)
-if (code === "*894#") {
+function ussd (){
+    let user = prompt(`please enter your name`).toUpperCase();
+    let code;
+    while (true) {
+         code  = prompt(`Welcome, ${user} ! Please enter First Bank transfer code (*894#) `)
+    if (code === "*894#") {
+
     let options = prompt (`what type of account do you have 
     1. savings
     2. current 
@@ -45,4 +49,7 @@ if (code === "*894#") {
     }else{  
     alert ("please enter valid first bank USSD code")
 }
+}
+
+    }
 }
