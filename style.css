@@ -5,11 +5,12 @@
 }
 
 .container{
-    margin: 3rem auto;
+    margin: 6rem auto;
     max-width: 400px;
     background-color:rgb(29, 103, 146);
-    padding: 30px;
+    padding:3rem 30px;
     color: #fff;
+    text-align: center;
 }
 
 #logo{
@@ -20,5 +21,18 @@
 }
 
 h1{
-    margin: 1rem 0;
+    margin: 1rem 0 0.75rem 0;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 0 7px 0 7px;
+    border: none;
+    margin: 1rem 0 0 0;
+}
+
+button:hover{
+    background-color: rgb(3, 71, 110);
+    color: #fff;
+    transition: 0.7s;
 }
